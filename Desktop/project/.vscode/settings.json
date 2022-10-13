@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "twtarot",
+            "database": "twtarot",
+            "username": "postgres",
+            "password": "postgres"
+        }
+    ]
+}

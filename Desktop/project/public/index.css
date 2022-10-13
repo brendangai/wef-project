@@ -1,0 +1,248 @@
+/* https://www.sitepoint.com/css-filter-effects-blur-grayscale-brightness-and-more-in-css/ */
+
+
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+body {
+    height: 100%;
+    flex-direction: row;
+}
+
+.header {
+    background-color: rgb(244, 242, 242);
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: blueviolet;
+    line-height: 150%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    /* position: sticky;
+    top: 0px; */
+}
+
+.header-container {
+    width: 75px;
+    height: auto;
+    text-decoration: none;
+    color: blueviolet;
+    text-align: left;
+    line-height: 30%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.home-btn,
+a.user-btn,
+a.booking-btn,
+a.buy-btn {
+    display: inline-block;
+    width: 20em;
+    /* float: left; */
+    text-align: center;
+    text-decoration-line: none;
+    color: blueviolet;
+    font-size: medium;
+}
+
+a.home-btn i,
+a.home-btn span,
+a.person-hearts i,
+a.person-hearts span,
+a.bookmark-heart i,
+a.bookmark-heart span,
+a.bag-heart i,
+a.bag-heart span {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+
+/* HERO SECTION */
+.hero-section {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-image {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* carousel-item active img {
+    filter: opacity(75%);
+    height: 200px;
+    width: 700px;
+} */
+
+.d-block-w-100 {
+    height: 650px;
+    width: 100%;
+    background-image: cover;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 1000px;
+    max-width: 80%;
+    padding: 40px;
+    text-align: center;
+}
+
+/* HERO SECTION 完*/
+
+/* YT SECTION */
+
+.container {
+    max-width: 100%;
+    height: auto;
+    /* border: 5px solid gray; */
+
+
+    /* border: 1.5px solid plum; */
+
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-self: center;
+    flex-direction: unset;
+}
+
+.card-container {
+    width: 20%;
+    height: auto;
+    /* border: 5px solid gray; */
+    border-radius: 10px;
+    margin: 100px auto 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+
+}
+
+.card1:hover {
+    background-color: rgb(223, 159, 223);
+    border: none;
+    transform: scale(1.05);
+}
+
+.card1 {
+    width: 256px;
+    height: auto;
+    border: 3px solid rgb(159, 90, 224);
+    border-radius: 33px;
+    /* margin: 10px 30px 10px 30px; */
+    margin: 10px;
+    position: relative;
+    box-shadow: 6px 6px 10px 10px rgb(226, 201, 226);
+}
+
+.card1 img {
+    width: 250px;
+    height: 320px;
+    border-radius: 30px;
+    filter: opacity(55%);
+
+}
+
+.card1 h3 {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black w/opacity/see-through */
+    color: white;
+    /* border: 2px solid #f1f1f1;
+    border-radius: 15px; */
+
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    line-height: 150%;
+}
+
+/* footer */
+
+.footer {
+    width: auto;
+    height: fit-content;
+    text-decoration: none;
+    line-height: 150%;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-line {
+    width: 100%;
+    color: blueviolet;
+}
+
+.footer-container {
+    width: 20%;
+    height: inherit;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-container a {
+    text-decoration-line: none;
+    color: rgb(238, 126, 163);
+    font-size: medium;
+}
+
+a.fb-btn i,
+a.ig-btn i,
+a.yt-btn i,
+a.gh-btn i {
+    display: block;
+    width: 100%;
+    clear: both;
+}

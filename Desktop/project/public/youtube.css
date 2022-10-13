@@ -1,0 +1,211 @@
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+
+body {
+    height: 100%;
+    flex-direction: row;
+}
+
+.header {
+    background-color: rgb(244, 242, 242);
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: blueviolet;
+    line-height: 150%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-container {
+    width: 75px;
+    height: auto;
+    text-decoration: none;
+    color: blueviolet;
+    text-align: left;
+    line-height: 30%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.home-btn,
+a.user-btn,
+a.booking-btn,
+a.buy-btn {
+    display: inline-block;
+    width: 20em;
+    /* float: left; */
+    text-align: center;
+    text-decoration-line: none;
+    color: blueviolet;
+    font-size: medium;
+}
+
+a.home-btn i,
+a.home-btn span,
+a.person-hearts i,
+a.person-hearts span,
+a.bookmark-heart i,
+a.bookmark-heart span,
+a.bag-heart i,
+a.bag-heart span {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+/* YT SECTION */
+
+.yt-section {
+    max-width: 100%;
+    height: auto;
+    /* border: 5px solid gray; */
+    display: flex;
+    align-items: flex-start;
+    justify-self: center;
+    flex-direction: unset;
+    /* border: 1.5px solid plum; */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.yt-left-section {
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    /* border: 3px solid plum; */
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.yt-header img {
+    width: 50px;
+    height: 50px;
+}
+
+.yt-header {
+    width: 80%;
+    height: auto;
+    margin: 5px;
+    /* padding: 10px; */
+    font-size: 20px;
+    font-weight: 800;
+    color: blueviolet;
+    text-align: left;
+}
+
+.yt-video iframe {
+    width: 80%;
+    height: 300px;
+    margin: 20px;
+}
+
+.yt-right-section {
+    width: 800px;
+    height: auto;
+    padding: 5px;
+    border: 2px solid plum;
+    margin: 10px;
+    display: flex;
+    border-radius: 10px;
+
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.yt-right-section a {
+    text-decoration-line: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: plum;
+    font-size: larger;
+}
+
+/* border: 2px solid gray;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 200px;
+    -webkit-line-clamp: 5;
+    /* Write the number of 
+                                  lines you want to be 
+                                  displayed 
+    -webkit-box-orient: vertical;*/
+
+.yt-video-list {
+    width: auto;
+    height: auto;
+
+    margin: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 15px;
+
+    font-size: 20px;
+    font-weight: 800;
+    color: blueviolet;
+    text-align: left;
+    line-height: 150%;
+    padding: 15px;
+}
+
+/* YT SECTION 完*/
+
+/* ZODIAC SIGN SECTION 完*/
+.sign-icon {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: blueviolet;
+    text-align: left;
+    line-height: 150%;
+    padding: 15px;
+}
+
+.sign-icon-container {
+    width: 80px;
+    height: 120px;
+    text-decoration: none;
+    color: blueviolet;
+    text-align: left;
+    line-height: 150%;
+    padding: 5px;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: wrap;
+}
+
+.sign-icon-container a {
+    flex: wrap;
+    text-decoration-line: none;
+    padding: 5px;
+    font-weight: 600;
+    color: blueviolet;
+    font-size: medium;
+    text-align: center;
+}
+
+.sign-icon img {
+    width: 50px;
+    height: 50px;
+}
