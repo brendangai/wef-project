@@ -1,3 +1,9 @@
+.row {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 body {
     background-image: cover;
     margin: 0;
@@ -64,8 +70,7 @@ body {
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
     display: block;
-} */
-
+} 
 
 
 .flip-card-front,
@@ -88,4 +93,4 @@ body {
     color: white;
     transform: rotateY(180deg);
     border-radius: 30px;
-}
+}*/
