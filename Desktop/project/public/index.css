@@ -21,10 +21,10 @@
     padding-top: 66px;
 }
 
-body {
-    /* height: calc(100% - 100px); */
-    /* flex-direction: row; */
-}
+/* body {
+    height: calc(100% - 100px); 
+    flex-direction: row;
+} */
 
 .header {
     background-color: rgb(244, 242, 242);

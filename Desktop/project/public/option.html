@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Welcome</title>
+</head>
+
+<body>
+    <div>
+        <h1>Welcome</h1>
+    </div><br />
+    <div class="dropdown">
+        <form>
+            <select name="list" id="list">
+                <option value="none">Pick an option</option>
+                <option value="one">Option 1</option>
+                <option value="two">Option 2</option>
+                <option value="three">Option 3</option>
+            </select>
+            <input type=button value="Select" onclick="optionClicked()" />
+        </form>
+    </div>
+    <div id="div"></div>
+    <script src='jquery.min.js'></script> <!-- include jquery-->
+    <script>
+        function optionClicked() {
+            var userPicked = $(`#list`).children("option").filter(":selected").val().trim();
+            switch (userPicked) {
+                case 'one': div.innerHTML = "You clicked option 1"; break;
+                case 'two': div.innerHTML = "You clicked option 2."; break;
+                case 'three': div.innerHTML = "You clicked option 3."; break;
+                default:
+                    alert("You must pick an option."); break;
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="dropdown.css">
+</body>
+
+</html>
