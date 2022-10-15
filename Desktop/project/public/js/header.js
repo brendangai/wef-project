@@ -10,13 +10,13 @@ if (headerElem) {
                     </a>
                 </div>
                 <div class="header-container">
-                    <a href="index.html" class="user-btn">
+                    <a href="shuffle.html" class="user-btn">
                         <h3><i class="bi bi-person-hearts"></i></h1>
                             <span><strong>會員專區</strong></span>
                     </a>
                 </div>
                 <div class="header-container">
-                    <a href="index.html" class="booking-btn">
+                    <a href="booking.html" class="booking-btn">
                         <h3><i class="bi bi-bookmark-heart"></i></h1>
                             <span><strong>占卜預約</strong></span>
                     </a>
