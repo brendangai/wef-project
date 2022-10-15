@@ -171,9 +171,9 @@ a.bag-heart span {
 }
 
 .card1 {
-    width: 256px;
+    width: 254px;
     height: auto;
-    border: 3px solid rgb(159, 90, 224);
+    border: 2px solid rgb(159, 90, 224);
     border-radius: 33px;
     /* margin: 10px 30px 10px 30px; */
     margin: 10px;
