@@ -126,8 +126,8 @@
                         <div class="unit-2">
                             <h4>占卜資料表格</h4>
                             <form id="cc-contact" action="" method="post">
-                                <input placeholder="你的稱乎(中/英/稱乎/乳名)：" type="text" tabindex="1" autofocus required>
-                                <select placeholder="你的太陽星座(以生日日期計算)：" type="select" tabindex="2" required>
+                                <input placeholder="你的稱乎(中/英/稱乎/乳名)：" type="text" QFId="1" autofocus required>
+                                <select placeholder="你的太陽星座(以生日日期計算)：" type="select" QFId="2" required>
                                     <option value="aries">白羊座/牡羊座</option>
                                     <option value="taurus">金牛座</option>
                                     <option value="gemini">雙子座</option>
@@ -142,25 +142,8 @@
                                     <option value="pisces">雙魚座</option>
                                     <option value="null">不清楚</option>
                                 </select>
-                                <input placeholder="你伴侶的稱乎(中/英/稱乎/乳名)：" type="text" tabindex="3">
-                                <select placeholder="你伴侶的太陽星座(以生日日期計算)：" type="select" tabindex="4">
-                                    <option value="aries">白羊座/牡羊座</option>
-                                    <option value="taurus">金牛座</option>
-                                    <option value="gemini">雙子座</option>
-                                    <option value="cancer">巨蟹座</option>
-                                    <option value="leo">獅子座</option>
-                                    <option value="virgo">處女座</option>
-                                    <option value="libra">天秤座</option>
-                                    <option value="scorpio">天蠍座</option>
-                                    <option value="sagittarius">射手座/人馬座</option>
-                                    <option value="capricorn">摩羯座/山羊座</option>
-                                    <option value="aquarius">水瓶座</option>
-                                    <option value="pisces">雙魚座</option>
-                                    <option value="null">不清楚</option>
-                                </select>
-
-                                <input placeholder="第三者的稱乎(中/英/稱乎/乳名)：" type="text" tabindex="5">
-                                <select placeholder="第三者的太陽星座(以生日日期計算)：" type="select" tabindex="6">
+                                <input placeholder="你伴侶的稱乎(中/英/稱乎/乳名)：" type="text" QFId="3">
+                                <select placeholder="你伴侶的太陽星座(以生日日期計算)：" type="select" QFId="4">
                                     <option value="aries">白羊座/牡羊座</option>
                                     <option value="taurus">金牛座</option>
                                     <option value="gemini">雙子座</option>
@@ -176,8 +159,8 @@
                                     <option value="null">不清楚</option>
                                 </select>
 
-                                <input placeholder="第三者伴侶的稱乎(中/英/稱乎/乳名)：" type="text" tabindex="7">
-                                <select placeholder="第三者伴侶的太陽星座(以生日日期計算)：" type="select" tabindex="8">
+                                <input placeholder="第三者的稱乎(中/英/稱乎/乳名)：" type="text" QFId="5">
+                                <select placeholder="第三者的太陽星座(以生日日期計算)：" type="select" QFId="6">
                                     <option value="aries">白羊座/牡羊座</option>
                                     <option value="taurus">金牛座</option>
                                     <option value="gemini">雙子座</option>
@@ -193,12 +176,28 @@
                                     <option value="null">不清楚</option>
                                 </select>
 
-                                <input placeholder="電郵地址：" type="email" tabindex="9">
-                                <input placeholder="手機號碼：" type="tel" tabindex="10" required>
-                                <input placeholder="第三者的稱乎(中/英/稱乎/乳名)：" type="text" tabindex="5">
+                                <input placeholder="第三者伴侶的稱乎(中/英/稱乎/乳名)：" type="text" QFId="7">
+                                <select placeholder="第三者伴侶的太陽星座(以生日日期計算)：" type="select" QFId="8">
+                                    <option value="aries">白羊座/牡羊座</option>
+                                    <option value="taurus">金牛座</option>
+                                    <option value="gemini">雙子座</option>
+                                    <option value="cancer">巨蟹座</option>
+                                    <option value="leo">獅子座</option>
+                                    <option value="virgo">處女座</option>
+                                    <option value="libra">天秤座</option>
+                                    <option value="scorpio">天蠍座</option>
+                                    <option value="sagittarius">射手座/人馬座</option>
+                                    <option value="capricorn">摩羯座/山羊座</option>
+                                    <option value="aquarius">水瓶座</option>
+                                    <option value="pisces">雙魚座</option>
+                                    <option value="null">不清楚</option>
+                                </select>
+
+                                <input placeholder="電郵地址：" type="email" QFId="9">
+                                <input placeholder="手機號碼：" type="tel" tabindQFIdex="10" required>
 
                                 <h5>現時可以選擇的收片日期：</h5>
-                                <select placeholder="現時可以選擇的收片日期：" type="select" tabindex="6">
+                                <select placeholder="現時可以選擇的收片日期：" type="select" QFId="11" required>
                                     <option value="bookingDate1">2022年11月1日</option>
                                     <option value="bookingDate2">2022年11月5日</option>
                                     <option value="bookingDate3">2022年11月11日</option>
@@ -210,75 +209,90 @@
                                     <option value="bookingDate9">2022年12月28日</option>
                                 </select>
 
+                                <h5>預計約定占卜時數：</h5>
+                                <select placeholder="現時可以選擇的收片日期：" type="select" QFId="12" required>
+                                    <option value="bookingHr1">5至10分鐘左右</option>
+                                    <option value="bookingHr2">15分鐘左右</option>
+                                    <option value="bookingHr3">30分鐘左右</option>
+                                    <option value="bookingHr4">45分鐘左右</option>
+                                    <option value="bookingHr5">1小時左右</option>
+                                    <option value="bookingHr6">1~1.5小時左右</option>
+                                    <option value="bookingHr7">1.5~2小時左右</option>
+                                    <option value="bookingHr8">2~3小時左右</option>
+                                    <option value="bookingHr9">3~5小時左右</option>
+                                    <option value="bookingHr9">5小時以上</option>
+                                    <option value="bookingHr9">不清楚</option>
+                                </select>
+
                                 <h5>請選擇你想占卜的問題(如有)：</h5>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="11">
+                                <label for="selectionQ1"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (1) 他/她在我們的關係中在想什麼？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="12">
+                                <label for="selectionQ2"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="14">
                                 (2) 他/她愛我嗎？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ3"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="15">
                                 (3) 他/她想跟我在一起嗎？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ4"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (4) 他/她怎樣看我們的關係？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ5"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (5) 他/她對我的印象如何？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ6"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (6) 他/她想跟我在一起嗎？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ7"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (7) 如果我向他/她告白，他/她會答應嗎？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ8"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (8) 他/她現在有沒有他/她認為比我更好的選擇？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ9"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (9) 我們未來一個月的發展？
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ10"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (10) 我們未來二個月的發展？(不逐個月抽牌)
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ11"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (11) 我們未來二個月的發展？(逐個月抽牌)
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ12"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (12) 我們未來三個月的發展？(不逐個月抽牌)
                                 </label><br>
 
-                                <label for="vehicle1"></label>
-                                <input type="checkbox" name="vehicle1" value="defaultQ1" tabindex="13">
+                                <label for="selectionQ13"></label>
+                                <input type="checkbox" name="vehicle1" value="defaultQ1" QFId="13">
                                 (13) 我們未來三個月的發展？(逐個月抽牌)
                                 </label><br>
 
 
-                                <textarea placeholder="請填寫你想占卜的問題(如有)：" tabindex="5" required></textarea>
+                                <textarea placeholder="請填寫你想占卜的問題(如有)：" QFId="14" required></textarea>
 
                                 <button name="submit" type="submit" id="contact-submit"
                                     data-submit="...Sending">提交</button>
@@ -303,11 +317,11 @@
                     <div class="panel">
                         <div class="unit-2">
                             <form id="cc-contact" action="" method="post">
-                                <input placeholder="你的稱乎(中/英/稱乎/乳名)：" type="text" tabindex="1" autofocus>
-                                <input placeholder="電郵地址：" type="email" tabindex="2" required>
-                                <input placeholder="手機號碼：" type="tel" tabindex="3" required>
-                                <input placeholder="網站(如有)：" type="text" tabindex="4" required>
-                                <textarea placeholder="請填寫你的問題：" tabindex="5" required></textarea>
+                                <input placeholder="你的稱乎(中/英/稱乎/乳名)：" type="text" CFId="1" autofocus>
+                                <input placeholder="電郵地址：" type="email" CFId="2" required>
+                                <input placeholder="手機號碼：" type="tel" CFId="3" required>
+                                <input placeholder="網站(如有)：" type="text" CFId="4" required>
+                                <textarea placeholder="請填寫你的問題：" CFId="5" required></textarea>
                                 <button name="submit" type="submit" id="contact-submit"
                                     data-submit="...Sending">提交</button>
                             </form>
