@@ -1,0 +1,96 @@
+.row {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+body {
+    background-image: cover;
+    margin: 0;
+}
+
+#member-container {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid plum;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: medium;
+    color: rgb(65, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap {
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+    border: 2px solid plum;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.unit-2 {
+    float: left;
+    box-sizing: border-box;
+    background-clip: padding-box;
+}
+
+.unit-2 {
+    width: 100%;
+}
+
+.wrap input[type="text"],
+.wrap input[type="email"],
+.wrap input[type="tel"],
+.wrap input[type="password"],
+.wrap textarea {
+    width: 100%;
+    border: 1px solid rgb(223, 159, 223);
+    margin: 0 0 5px;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 3px 1.5px 3px 1.5px rgba(226, 213, 218, 0.7);
+}
+
+.wrap input[type="checkbox"] {
+    max-width: 100%;
+    border: 1px solid rgba(232, 197, 232);
+    margin: 0 0 5px;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+}
+
+.wrap textarea {
+    height: 147px;
+    max-width: 100%;
+}
+
+.wrap button[type="submit"] {
+    cursor: pointer;
+    width: 30%;
+    border: none;
+    background: rgb(223, 159, 223);
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 3px 1.5px 3px 1.5px rgba(223, 159, 223, 0.5);
+    border-radius: 10px;
+}
+
+.wrap button[type="submit"]:hover {
+    background: rgb(223, 159, 223);
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}

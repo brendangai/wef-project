@@ -206,3 +206,12 @@ shuffleElem3.addEventListener('click', async (event) => {
 })
 
 
+const number = []
+
+const container = document.getElementById('container');
+
+function createCard() {
+
+    <div class="card "
+}
+

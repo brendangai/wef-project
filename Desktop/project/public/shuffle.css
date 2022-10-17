@@ -145,8 +145,81 @@ body {
     justify-content: center;
     align-items: center; */
     font-size: large;
+    font-weight: 600;
     color: rgb(65, 55, 55);
 }
+
+#result-container h5 {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+#result-container span {
+    font-weight: 800;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+
+#result-container div>span {
+    background: brown;
+    position: relative;
+    animation: gfg 7s infinite;
+}
+
+@keyframes gfg {
+    0% {
+        top: 0px;
+        width: 0px;
+    }
+
+    25% {
+        top: 50px !important;
+        background: rgb(228, 67, 166);
+    }
+
+    50% {
+        top: 100px !important;
+        background: pink;
+    }
+
+    100% {
+        top: 200px !important;
+        color: white;
+        background: rgb(232, 115, 193);
+        width: 210px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .animation {
     /* width: 300px !important; */
